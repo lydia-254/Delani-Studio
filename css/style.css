@@ -3,5 +3,6 @@
     height: 800px;
 }
 .services {
-    background-image: url(../assets/backgrounds/comp.jpg)
+    background-image: url(../assets/backgrounds/comp.jpg);
+    height: 250px;.
 }
