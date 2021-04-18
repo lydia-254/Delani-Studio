@@ -1,5 +1,6 @@
 .header {
     background-image: url(../assets/backgrounds/lyd.jpg);
+    background-size: cover;
     object-position: center;
     object-fit: cover;
     height: 400px;
@@ -16,6 +17,7 @@ h2 {
 }
 .services {
     background-image: url(../assets/backgrounds/comp.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     height: 350px;
 }
@@ -46,6 +48,7 @@ h1 {
 }
 .form-us {
     background-image: url('../assets/backgrounds/cyt.jpg');
+    background-size: cover;
     height: 500px;
 }
 .form-control {
