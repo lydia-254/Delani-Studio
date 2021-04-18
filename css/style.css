@@ -3,12 +3,16 @@
     background-size: cover;
     object-position: center;
     object-fit: cover;
-    height: 400px;
+    height: 500px;
     position: relative;
+}
+.about-us {
+    color: black;
 }
 h2 {
     text-align: center;
-    padding-top: 70px;
+    padding-top: 90px;
+    color: white;
 }
 .ser {
     text-align: center;
@@ -42,14 +46,15 @@ h1 {
     text-align: center;
 }
 .asset {
-    height: 200px;
-    width: 200px;
-    padding: 3%;
+    height: 250px;
+    width: 250px;
+    padding: 6%;
+    padding-right: 0%;
 }
 .form-us {
     background-image: url('../assets/backgrounds/cyt.jpg');
     background-size: cover;
-    height: 500px;
+    height: 750px;
 }
 .form-control {
     background: none;
