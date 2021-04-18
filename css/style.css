@@ -3,13 +3,16 @@
     object-position: center;
     object-fit: cover;
     height: 400px;
+    position: relative;
 }
 h2 {
     text-align: center;
+    padding-top: 70px;
 }
 .ser {
     text-align: center;
     color: white;
+    padding-top: 10px;
 }
 
 .services {
@@ -33,7 +36,9 @@ h1 {
     text-align: center;
 }
 .icon {
-    text-align: center;
+    padding-left: 50%;
+    position: absolute;
+    bottom: 0%;
 }
 .us {
     text-align: center;
