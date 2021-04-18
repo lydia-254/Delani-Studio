@@ -14,15 +14,10 @@ h2 {
     color: white;
     padding-top: 10px;
 }
-
 .services {
     background-image: url(../assets/backgrounds/comp.jpg);
     background-repeat: no-repeat;
     height: 350px;
-}
-.contact {
-    background-image: url(../assets/backgrounds/cyt.jpg);
-    height: 500px;
 }
 h1 {
     text-align: center;
@@ -48,4 +43,8 @@ h1 {
     height: 200px;
     width: 200px;
     padding: 3%;
+}
+.form-us {
+    background-image: url('../assets/backgrounds/cyt.jpg');
+    height: 700px;
 }
