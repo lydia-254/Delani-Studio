@@ -1,6 +1,6 @@
 .header {
     background-image: url(../assets/backgrounds/lyd.jpg);
-    height: 800px;
+    height: 600px;
 }
 .services {
     background-image: url(../assets/backgrounds/comp.jpg);
@@ -9,4 +9,13 @@
 .contact {
     background-image: url(../assets/backgrounds/cyt.jpg);
     height: 500px;
+}
+h1 {
+    text-align: center;
+}
+.fun {
+    text-align: center;
+}
+.logo {
+    text-align: center;
 }
