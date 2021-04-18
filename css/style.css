@@ -44,3 +44,8 @@ h1 {
 .us {
     text-align: center;
 }
+.asset {
+    height: 200px;
+    width: 200px;
+    padding: 3%;
+}
