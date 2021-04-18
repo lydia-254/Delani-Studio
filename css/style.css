@@ -46,5 +46,11 @@ h1 {
 }
 .form-us {
     background-image: url('../assets/backgrounds/cyt.jpg');
-    height: 700px;
+    height: 500px;
+}
+.form-control {
+    background: none;
+}
+.contact {
+    color: white;
 }
