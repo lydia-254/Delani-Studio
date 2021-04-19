@@ -98,31 +98,39 @@
             <h2 class="port">PORTFOLIO.</h2>
             <div class="content">
                 <div class="row">
-                    <div class="col">
-                        <img class="asset" src="./assets/portfolio/work4.jpg" alt="">
+                    <div class="col-md-3" id="work4">
+                        <img class="asset" src="./assets/portfolio/work4.jpg" alt="work4">
+                        <p id="overlay4" class="text">DARK</p>
                     </div>
-                    <div class="col">
-                        <img class="asset" src="./assets/portfolio/work3.jpg" alt="">
+                    <div class="col-md-3" id="work3">
+                        <img class="asset" src="./assets/portfolio/work3.jpg" alt="work3">
+                        <p id="overlay3" class="text">BRONZE</p>
                     </div>
-                    <div class="col">
-                        <img class="asset" src="./assets/portfolio/work2.jpg" alt="">
+                    <div class="col-md-3" id="work2">
+                        <img class="asset" src="./assets/portfolio/work2.jpg" alt="work2">
+                        <p id="overlay2" class="text">GOLD</p>
                     </div>
-                    <div class="col">
-                        <img class="asset" src="./assets/portfolio/work1.jpg" alt="">
+                    <div class="col-md-3" id="work1">
+                        <img class="asset" src="./assets/portfolio/work1.jpg" alt="work1">
+                        <p id="overlay1" class="text">IRON</p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col">
-                        <img class="asset" src="./assets/portfolio/work5.jpg" alt="">
+                    <div class="col-md-3" id="work5">
+                        <img class="asset" src="./assets/portfolio/work5.jpg" alt="work5">
+                        <p id="overlay5" class="text">SEA</p>
                     </div>
-                    <div class="col">
-                        <img class="asset" src="./assets/portfolio/work6.jpg" alt="">
+                    <div class="col-md-3" id="work6">
+                        <img class="asset" src="./assets/portfolio/work6.jpg" alt="work6">
+                        <p id="overlay6" class="text">STAR</p>
                     </div>
-                    <div class="col">
-                        <img class="asset" src="./assets/portfolio/work7.jpg" alt="">
+                    <div class="col-md-3" id="work7">
+                        <img class="asset" src="./assets/portfolio/work7.jpg" alt="work7">
+                        <p id="overlay7" class="text">OCEAN</p>
                     </div>
-                    <div class="col">
-                        <img class="asset" src="./assets/portfolio/work8.jpg" alt="">
+                    <div class="col-md-3" id="work8">
+                        <img class="asset" src="./assets/portfolio/work8.jpg" alt="work8">
+                        <p id="overlay8" class="text">DELANI</p>
                     </div>
                 </div>
             </div>
@@ -130,21 +138,22 @@
         <div class="contacts">
             <div class="form-us">
                 <h2 class="contact">CONTACT US.</h2>
-                <form>
+                <div class="form-group">
                     <div class="row">
                         <div class="col">
-                          <input type="text" class="form-control" placeholder="Name..">
+                          <input type="text" id="name" class="form-control" placeholder="Name..">
                         </div>
                         <div class="col">
-                          <input type="email" class="form-control" placeholder="Email">
+                          <input type="email" id="email" class="form-control" placeholder="Email">
                         </div>
-                      <div class="row">
-                          <div class="col">
-                              <textarea class="form-control" placeholder="Your message"></textarea>
-                          </div>
                       </div>
+                    <label for="comment">Comment:</label>
+                    <textarea class="form-control" rows="5" id="comment"></textarea>
+                    <div class="col">
+                        <input type="button" id="submit" value="Submit" class="btn btn-secondary">
                     </div>
-                </form>
+                  </div>
+              </form>
             </div>
         </div>
     </div>
