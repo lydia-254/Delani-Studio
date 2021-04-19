@@ -80,3 +80,8 @@ footer{
   footer p{
     margin-top: 10px;
   }
+  #design-words, #product-management-words, #development-words{
+    display: none;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 16px;
+  }
